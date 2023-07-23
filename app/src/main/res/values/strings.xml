@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PizzaHut</string>
+    <string name="action_setting">Settings</string>
+    <string name="greeting">Hello .... </string>
+    <string name="label1">Username</string>
+    <string name="btn1">masuk</string>
+</resources>

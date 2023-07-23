@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/scan"
+        android:layout_width="54dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:src="@drawable/scan" />
+
+    <LinearLayout
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="Hi, Dessy"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/poin"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:text="0 poin"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/welcome"
+            android:layout_width="363dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:shadowColor="#A18C8C"
+            android:text="Welcome to Pizza Hut Indonesia apps"
+            android:textColor="#9A8A8A"
+            android:textSize="12sp"
+            app:strokeColor="#B19C9C" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/delivery"
+                            android:layout_width="89dp"
+                            android:layout_height="81dp"
+                            android:shadowColor="#A18C8C"
+                            android:src="@drawable/delivery" />
+                        <ImageView
+                            android:id="@+id/takeaway"
+                            android:layout_width="89dp"
+                            android:layout_height="81dp"
+                            android:shadowColor="#A18C8C"
+                            android:src="@drawable/takeaway"/>
+                        <ImageView
+                            android:id="@+id/dinein"
+                            android:layout_width="89dp"
+                            android:layout_height="81dp"
+                            android:shadowColor="#A18C8C"
+                            android:src="@drawable/dine"/>
+                        <ImageView
+                            android:id="@+id/quick"
+                            android:layout_width="89dp"
+                            android:layout_height="81dp"
+                            android:layout_gravity="right"
+                            android:shadowColor="#A18C8C"
+                            android:src="@drawable/quick"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/point"
+            android:layout_width="89dp"
+            android:layout_height="81dp"
+            android:shadowColor="#A18C8C"
+            android:src="@drawable/point" />
+        <ImageView
+            android:id="@+id/voucher"
+            android:layout_width="89dp"
+            android:layout_height="81dp"
+            android:shadowColor="#A18C8C"
+            android:src="@drawable/voucher"/>
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="89dp"
+            android:layout_height="81dp"
+            android:src="@drawable/menu"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="340dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/first" />
+                <ImageView
+                    android:layout_width="340dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/second" />
+                <ImageView
+                    android:layout_width="340dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/third"/>
+                <ImageView
+                    android:layout_width="340dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/fourth"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="340dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/satu" />
+                <ImageView
+                    android:layout_width="340dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/dua" />
+                <ImageView
+                    android:layout_width="340dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/tiga"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <ImageView
+            android:id="@+id/beranda"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/beranda" />
+
+        <ImageView
+            android:id="@+id/myorder"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/order" />
+
+        <ImageView
+            android:id="@+id/ph"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/ph" />
+
+        <ImageView
+            android:id="@+id/inbox"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/inbox" />
+
+        <ImageView
+            android:id="@+id/account"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/account" />
+    </LinearLayout>
+</LinearLayout>
